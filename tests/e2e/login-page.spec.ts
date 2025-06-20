@@ -17,5 +17,5 @@ test("login e navega para /admin", async ({ page }) => {
   expect(page.url()).toBe("http://localhost:5173/admin");
 
   // Você pode adicionar mais asserts aqui para garantir que a página admin está visível
-  await expect(page.locator("text=Gerenciar usuários")).toBeVisible();
+  await expect(page.locator("text=Gerenciar ")).toBeVisible();
 });

@@ -8,7 +8,7 @@ test.describe('BudgetPage', () => {
     // Verifica o título
     await expect(page.getByRole('heading', { name: 'Monte seu orçamento' })).toBeVisible()
 
-    // Verifica o parágrafo
+    // Verifica o parágrafo 
     await expect(page.getByText('Escolha as bebidas e serviços que deseja incluir no seu evento.')).toBeVisible()
 
     // Verifica se o botão existe
